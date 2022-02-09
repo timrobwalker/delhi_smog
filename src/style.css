@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.shadow {
+    text-shadow: 1px 1px 1px #ccc;
+}
+
+/* BANNER */
+
+.container {
+    width: 100%;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    background-color: #bb1919;
+    box-sizing: border-box;
+    width: 100%;
+    position: fixed;
+    padding: 0 10px;
+    height: 40px;
+    box-shadow: 1px 1px 1px #ccc;
+}
+
+/* LANGUAGE BUTTONS */
+
+.button-group {
+    float: right;
+}
+
+.button {
+    color: #bb1919;
+    box-shadow: 0 2px #ccc;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    float: left;
+    margin: 5px;
+}
+
+.button:hover {background-color: #ccc}
+
+.button:active {
+    background-color: #ccc;
+    box-shadow: 0 1px rgb(160, 160, 160);
+    transform: translateY(2px);
+}
+
+.flag {
+    border-radius: 5px;
+    display: block;
+    padding: 1px;
+}
+
+.uk {
+    width: 50px;
+}
+
+.india {
+    width: 38px;
+}
+
+/* BBC Logo */
+
+.bannerImage {
+    height: 18px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+/* HERO */
+
+#hero img {
+    width: 100%;
+    height: 25%;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-shadow: 1px 1px 1px #ccc;
+}
+
+#heroTitles {
+    padding-top: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* AUTHOR | DATE | CATEGORY */
+
+#information, #secondaryInformation {
+   padding: 10px 20px;
+ 
+}
+
+#acd {
+    margin: 0 auto;
+    padding: 10px;
+    box-shadow: inset 0 -3px 0 0 #ccc;
+    width: 90%;
+}
+
+td:not(:last-child){
+    box-shadow: inset -1px 0 0 #ccc;
+}
+
+#date {
+    text-align: center;
+}
+
+#category {
+    float: right;
+    color: #bb1919;
+    text-decoration: none;
+}
+
+/* MAIN INFORMATION part 1 */
+
+#information>li:first-child {
+    padding: 10px 30px;
+    text-shadow: 1px 1px 1px #ccc;
+    font-weight: bold;
+
+}
+
+#information>li, #secondaryInformation>li {
+    padding: 10px 15px;
+    list-style-type: none;
+    font-size: .95rem;
+}
+
+/* COMPARE SECTION */
+
+#compareTitle {
+    text-align: center;
+    padding: 10px 0;
+    margin: 10px 20px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #a91717;
+}
+
+#compareButtons {
+    padding-bottom: 20px;
+}
+
+.compareContainer {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+}
+
+.city {
+  padding: 10px;
+  border-radius: 10px;   
+  margin: 2px;
+  
+}
+
+#compareResults {
+    text-align: center;
+}
+
+#compareResults h3 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+
+/* FOOTER */
+#footer {
+  background: rgb(73, 73, 73);
+  padding: 24px 0;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+#copyright {
+    text-align: center;
+    color: white;
+}
+

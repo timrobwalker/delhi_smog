@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Delhi Smog | How many cigarettes did you smoke this week?</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="Delhi Smog: How many cigarettes did you smoke this week?">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="./src/assets/favicon.png">
+        <link rel="stylesheet" href="./src/style.css">
+    </head>
+    <body onload="">
+        <!-- WEBPAGE CONTAINER -->
+    <div class="container">
+        <div class="banner">
+            <div class="bannerLogo">
+                <a href="https://www.bbc.co.uk/news">
+                    <img class="bannerImage" src="./src/assets/news.png">
+                </a>
+            </div>
+        <!-- BUTTON GROUPS & BUTTONS -->
+            <div class="button-group">
+                <button class="button"><img class="flag uk" src="./src/assets/united-kingdom-flag.png" onclick="language('./src/english.json')" alt="English version"></button>
+                <button class="button"><img class="flag india" src="./src/assets/india-flag.png" onclick="language('./src/hindi.json')" alt="Hindi version"></button>
+            </div>
+        </div>
+        <!-- HERO -->
+        <section id="hero">
+            <div class="heroContainer">
+            </div>
+        </section>
+        <!-- HERO TITLES -->
+            <h1 id="heroTitles" class="shadow"></h1>
+        <!-- AUTHOR DATE CATEGORY -->
+        <article id="credits">
+            <table id="acd">
+                <tr>
+                    <td id="author" class="shadow">
+                    </td><td id="date" class="shadow"></td> 
+                    <td><a id="category" class="shadow"></a></td>
+                </tr>
+            </table>
+        </article>
+        <!-- MAIN INFORMATION -->
+        <main>
+            <ul id="information"></ul>
+        </main>
+        <!-- CITY COMPARISON-->
+        <main>
+            <h2 id="compareTitle" class="shadow"></h2>
+            <div class="compareContainer">
+                <div id="compareButtons"></div>
+                <!-- <div class="compareMap">
+                </div> -->
+            </div>
+            <div id="compareResults">
+            <h3 class="shadow">Results</h3>
+            </div>
+        </main>
+        <!-- SECONDARY INFORMATION -->
+        <main>
+            <ul id="secondaryInformation"></ul>
+        </main>
+        <!-- FOOTER -->
+        <footer id="footer">
+            <div id="copyright">
+                Copyright © 2020 <b>BBC</b>
+            </div>
+        </footer>
+
+
+
+
+    </div>
+    <script src="./src/main.js"></script>    
+    </body>
+</html>
