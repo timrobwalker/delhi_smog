@@ -14,7 +14,7 @@ fetch('./src/english.json')
         return response.json();
     })
     .then (function (data) {
-        console.log(data);
+        // console.log(data);
         imageUpload(data);
         textUpload(data);
     })
